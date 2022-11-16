@@ -6,8 +6,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/carousel/">
-	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="script.js"></script>
+
+  <!---animation links---->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>NAD TECH</title>
 
     <style>
@@ -72,7 +77,7 @@
   <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="bd-placeholder-img" style="background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./portfolio/portfolio-1.jpg');" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img>
+        <img class="bd-placeholder-img"  style="background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('portfolio/portfolio-1.jpg')" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img>
 
         <div class="container">
           <div class="carousel-caption">
@@ -82,7 +87,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="bd-placeholder-img" style="background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./portfolio/portfolio-2.jpg');" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img>
+        <img class="bd-placeholder-img" style="background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('portfolio/portfolio-2.jpg')" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img>
 
         <div class="container">
           <div class="carousel-caption">
@@ -92,7 +97,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="bd-placeholder-img" style="background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./portfolio/portfolio-3.jpg');" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img>
+        <img class="bd-placeholder-img" style="background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('portfolio/portfolio-3.jpg');" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></img>
 
         <div class="container">
           <div class="carousel-caption">
@@ -119,10 +124,10 @@
     <div id="about">
       <h2>ABOUT US</h2>
       <div class="row">
-        <div class="col-md-6">
-          <img src="./portfolio/portfolio-11.jpg" id="about-img">
+        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500">
+          <img src="portfolio/nad-advert.jpg" id="about-img">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
           <h3 id="about-h3-1"><b>About NAD Tech</b></h3>
 					<p>NAD Tech is a top-rated freelance online set-up. We offer digital services to our customers,
             with focuses on Website development, Graphic designs, UI/UX designs, Online tutoring and lots more.
@@ -143,39 +148,39 @@
       </div>
       <div class="row" id="about-second-row">
         <div class="col-md-4">
-          <div class="main">
-            <img src="./portfolio/portfolio-1.jpg" id="about-mission-img" />
+          <div class="main" data-aos="fade-up" data-aos-duration="1500">
+            <img src="portfolio/portfolio-1.jpg" id="about-mission-img" />
             <div class="overlay">
-              <center><img src="./portfolio/c-mission-icon.jpg" id="about-icons"></img></center>
+              <center><img src="portfolio/c-mission-icon.jpg" id="about-icons"></img></center>
             </div>
           </div>
-          <center><h3 id="about-h3">Our Mission</h3></center>
-          <p>In a fast growing world of digital advancement, our mission is to provide such digital advancement
+          <center><h3 id="about-h3" data-aos="fade-up" data-aos-duration="1500">Our Mission</h3></center>
+          <p data-aos="fade-up" data-aos-duration="1500">In a fast growing world of digital advancement, our mission is to provide such digital advancement
             to customers and potential customers. This is to enable them, spread their ideas and thought promote
             their portfolios and grow their business and lots more through the use of digital tools.</p>
         </div>
         <div class="col-md-4">
-          <div class="main">
+          <div class="main" data-aos="fade-up" data-aos-duration="1500">
             <img src="portfolio/portfolio-2.jpg" id="about-mission-img">
             <div class="overlay">
               <center><img src="portfolio/plan-icon.jpg" id="about-icons"></img></center>
             </div>
           </div>
-          <center><h3 id="about-h3">Our Plan</h3></center>
-          <p>Our plan is to provide digital tools and content to spread ideas, promotes portfolios, grow businesses, and 
+          <center><h3 id="about-h3" data-aos="fade-up" data-aos-duration="1500">Our Plan</h3></center>
+          <p data-aos="fade-up" data-aos-duration="1500">Our plan is to provide digital tools and content to spread ideas, promotes portfolios, grow businesses, and 
             create moments of satisfaction to our customers and potential customers.</p>
         </div>
         <div class="col-md-4">
-          <div class="main">
+          <div class="main" data-aos="fade-up" data-aos-duration="1500">
             <img src="portfolio/portfolio-3.jpg" id="about-mission-img">
             <div class="overlay">
               <center><img src="portfolio/vision-icon.jpg" id="about-icons"></img></center>
             </div>
           </div>
-          <center><h3 id="about-h3">Our vision</h3></center>
-          <p>Our core vision is to grow and promotes business and careers around the world, through the use of digital tools.
+          <center><h3 id="about-h3" data-aos="fade-up" data-aos-duration="1500">Our vision</h3></center>
+          <p data-aos="fade-up" data-aos-duration="1500">Our core vision is to grow and promotes business and careers around the world, through the use of digital tools.
             We envisage in growing and promoting hundreds of businesses and careers every year through the use of digital 
-            tools and content </p>
+            tools and content.</p>
         </div>
       </div>
     </div>
@@ -186,15 +191,15 @@
       <div class="row">
         <div class="col-md-6">
           <div id="services-box">
-            <h3><b>Websites Development</b></h3>
-            <p>NAD Tech, an online set-up, majorly creates web-sites which includes Personal website, Portfolio websites, Business website 
+            <h3 data-aos="fade-up" data-aos-duration="1500"><b>Websites Development</b></h3>
+            <p data-aos="fade-up" data-aos-duration="1500">NAD Tech, an online set-up, majorly creates web-sites which includes Personal website, Portfolio websites, Business website 
               E-commerce websites, School websites, Blogs, Online Newspaper websites and lots more.
           </div>
         </div>
         <div class="col-md-6">
           <div id="services-box">
-            <h3><b>Graphic Designs</b></h3>
-            <p>NAD Tech deals in creative and beautiful graphic works using modern graphic tools. We designs Fliers, Posters, Banners, Business cards,
+            <h3 data-aos="fade-up" data-aos-duration="1500"><b>Graphic Designs</b></h3>
+            <p data-aos="fade-up" data-aos-duration="1500">NAD Tech deals in creative and beautiful graphic works using modern graphic tools. We designs Fliers, Posters, Banners, Business cards,
                Photo editing, and lots more, which could be for personal use, illustrations, social media content or any other purposes.
             </p>
           </div>
@@ -204,15 +209,15 @@
       <div class="row">
         <div class="col-md-6">
           <div id="services-box">
-            <h3><b>Web Hosting/Management</b></h3>
-            <p>NAD Tech deals also in hosting of websites as well as manages the web-site of customers and potential customers.
+            <h3 data-aos="fade-up" data-aos-duration="1500"><b>Web Hosting/Management</b></h3>
+            <p data-aos="fade-up" data-aos-duration="1500">NAD Tech deals also in hosting of websites as well as manages the web-site of customers and potential customers.
               At NAD Tech, we also updates and upgrade websites already being hosted.</p>
           </div>
         </div>
         <div class="col-md-6">
           <div id="services-box">
-            <h3><b>Online Tutorials</b></h3>
-            <p>Through our bloging channels, and social media handles, we provide tutorials and materials for interested individuals in the field for web development, graphic designs, ui/ux designs and lots more.
+            <h3 data-aos="fade-up" data-aos-duration="1500"><b>Online Tutorials</b></h3>
+            <p data-aos="fade-up" data-aos-duration="1500">Through our bloging channels, and social media handles, we provide tutorials and materials for interested individuals in the field for web development, graphic designs, ui/ux designs and lots more.
               Also, interested individuals in Abuja can contact us for a pysical tutorials.
             </p>
           </div>
@@ -225,78 +230,84 @@
       <h3>CHECK OUR PORTFOLIOS</h3>
 
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/portfolio-site-gallery.jpg" id="portfolio-img"/>
-            <h6>An individual portfolio website example<br/><a href="https://meganad60.github.io"><i class="fas fa-link"></i></a></h6>
+              <a class="btn btn-outline-secondary" href="https://github.com/MegaNAD60/MegaNAD60.github.io" style="margin:5px;">Github</a>
+              <a class="btn btn-outline-secondary" href="https://meganad60.github.io/" style="float:right; margin:5px;">Live</a>
              
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/clothing-site-gallery.jpg" id="portfolio-img"/>
-            <h6>Clothing store business website template<br/><a href="https://nadclothings.netlify.app"><i class="fas fa-link"></i></a></h6>
-          </div>
+            <a class="btn btn-outline-secondary" href="https://github.com/MegaNAD60/clothingSite" style="margin:5px;">Github</a>
+            <a class="btn btn-outline-secondary" href="https://nadclothings.netlify.app/" style="float:right; margin:5px;">Live</a>
         </div>
-        <div class="col-md-3">
+        </div>
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/marketing-site-gallery.jpg" id="portfolio-img"/>
-            <h6>A business site template<br/><a href="#"><i class="fas fa-link"></i></a></h6>
-          </div>
+            <a class="btn btn-outline-secondary" href="https://github.com/MegaNAD60/marketingSite" style="margin:5px;">Github</a>
+            <a class="btn btn-outline-secondary" href="https://nad-store.netlify.app/" style="float:right; margin:5px;">Live</a>
         </div>
-        <div class="col-md-3">
+        </div>
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/housing-site-gallery.jpg" id="portfolio-img"/>
-            <h6>A real estate web site template<br/><a href="https://nadrealestate.netlify.app"><i class="fas fa-link"></i></a></h6>
-          </div>
+            <a class="btn btn-outline-secondary" href="https://github.com/MegaNAD60/housingSiteTemplate" style="margin:5px;">Github</a>
+            <a class="btn btn-outline-secondary" href="https://nadrealestate.netlify.app" style="float:right; margin:5px;">Live</a>
+        </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
-            <img src="portfolio/realestate-advert.jpg" id="portfolio-img"/>
-            <h6>A real estate advert design by us<br/><i class="fas fa-plus"></i></h6>
-          </div>
+            <img src="portfolio/nad-website-flier1.jpg" id="portfolio-img"/>
+            <a class="btn btn-outline-secondary" href="portfolio/nad-website-flier1.jpg" style="margin:5px;">View</a>
         </div>
-        <div class="col-md-3">
+        </div>
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/peargarden2.jpg" id="portfolio-img"/>
-            <h6>A real estate advert flier<br/><i class="fas fa-plus"></i></h6>
-          </div>
+            <a class="btn btn-outline-secondary" href="portfolio/peargarden2.jpg" style="margin:5px;">View</a>
         </div>
-        <div class="col-md-3">
+        </div>
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/nad-website-flier.jpg" id="portfolio-img"/>
-            <h6>Here is one of our advert flier<br/><i class="fas fa-plus"></i></h6>
-          </div>
+            <a class="btn btn-outline-secondary" href="portfolio/nad-website-flier.jpg" style="margin:5px;">View</a>
         </div>
-        <div class="col-md-3">
+        </div>
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/hangout.jpg" id="portfolio-img"/>
-            <h6>A flier for an hangout design by us.<br/><i class="fas fa-plus"></i></h6>
-          </div>
+            <a class="btn btn-outline-secondary" href="portfolio/hangout.jpg" style="margin:5px;">View</a>
+        </div>
         </div>
       </div>
  
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/sticker.jpg" id="portfolio-img"/>
-            <h6>A simple sticker design<br/><i class="fas fa-plus"></i></h6>
-          </div>
+            <a class="btn btn-outline-secondary" href="portfolio/sticker.jpg" style="margin:5px;">View</a>
         </div>
-        <div class="col-md-3">
+        </div>
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
             <img src="portfolio/tech-firm-advert.jpg" id="portfolio-img"/>
-            <h6>A tech firm advert flier<br/><i class="fas fa-plus"></i></h6>
-          </div>
+            <a class="btn btn-outline-secondary" href="portfolio/tech-firm-advert.jpg" style="margin:5px;">View</a>
         </div>
-        <div class="col-md-3">
+        </div>
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
+            <img src="portfolio/realestate-advert.jpg" id="portfolio-img"/>
+            <a class="btn btn-outline-secondary" href="portfolio/realestate-advert.jpg" style="margin:5px;">View</a>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <div id="portfolio-box">
           </div>
         </div>
@@ -308,9 +319,9 @@
       <h2>CONTACT US</h2>
       <div class="row">
 
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-lg-12" data-aos="zoom-in" data-aos-duration="1500">
               <div id="address-box">
                 <i class="fas fa-map-marker-alt"></i>   
                 <h4>Address</h4>
@@ -319,7 +330,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
               <div id="email-box">
 							  <div class="info-box mt-4">
 								  <i class="fas fa-envelope"></i>   
@@ -328,7 +339,7 @@
 							  </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
               <div id="phone-box">
                 <div class="info-box mt-4">
                   <i class="fas fa-phone"></i>   
@@ -340,27 +351,19 @@
           </div>
         </div>
         
-        <div class="col-md-6">
-          <div id="message-box">
-            <form name="myform">
-              <center><h3>SEND A MESSAGE</h3></center>
-              <fieldset id="message-box-fieldset">
-                <div id="input-box">
-                  <input type="text" name="name" id="message-box-name" placeholder="Full Name" minlength="3" class="text-input" required/>
-                </div>
-                <div id="input-box">
-                  <input type="email" name="email" id="message-box-email" placeholder="E-mail" class="email-input" required />
-                </div>
-                <div id="input-box">
-                  <input type="text" name="phone" id="message-box-subject" placeholder="Subject" class="phone-no-input" required />
-                </div>
-                <div id="input-box">
-                  <textarea type="text" name="text" id="message-box-textarea" placeholder="Your Message" minlength="10" required ></textarea>
-                </div>
-                <button type="submit" name="button" id="message-box-button" onclick="sendmessage()">Send</button>
-              </fieldset>
-            </form>
-         </div>
+        <div class="col-lg-6">
+          <div id="message-box" data-aos="zoom-in" data-aos-duration="1500">
+            <center><h4>Contact us @ Social Media @</h4></center>
+            <div class="header-social-links">
+              <a href="https://www.facebook.com/equity.justice.501" class="fab fa-facebook"></a>   
+              <a href="https://www.instagram.com/nehemiahagbu" class="fab fa-instagram"></a>   
+              <a href="https://wa.me/+2348123595348" class="fab fa-whatsapp"></a>   
+              <a href="https://twitter.com/dauda_nehemiah" class="fab fa-twitter"></a>   
+              <a href="https://t.me/NehemiahD" class="fab fa-telegram"></a>   
+            </div>
+            <a class="btn btn-outline-secondary" href="mailto: nehemiahdauda60@gmail.com">Send Us Email</a>
+
+          </div>
        </div>
 
      </div>
@@ -371,22 +374,11 @@
 
 
 <div class="footer">
-	<div id="footer-contact">
-    <center>
-      <h4><b>Connect with us via</b></h4>
-      <div class="header-social-links">
-        <a href="https://www.facebook.com/equity.justice.501" class="fab fa-facebook"></a>   
-        <a href="https://www.instagram.com/nehemiahagbu" class="fab fa-instagram"></a>   
-        <a href="https://wa.me/+2348123595348" class="fab fa-whatsapp"></a>   
-        <a href="https://twitter.com/dauda_nehemiah" class="fab fa-twitter"></a>   
-        <a href="https://t.me/NehemiahD" class="fab fa-telegram"></a>   
-      </div>
-    </center>
-  </div>
+
 </div>
 <div id="copyright">
 	<center>
-		<span>copywright &copy <strong>nad tech 2022</strong></span><br/>
+		<span>copywright &copy <strong>nad tech 2022.</strong> All Rights Reserved.</span><br/>
 		<span>Design by <strong>Nehemiah Dauda</strong></span>
 	</center>
 </div>
@@ -396,6 +388,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
     <script>
+      AOS.init()
     $(window).scroll(function(){
       $('.navbar').toggleClass('scrolled', $(this).scrollTop() > 200);
       $('.nav-link').toggleClass('scrolled', $(this).scrollTop() > 200);
